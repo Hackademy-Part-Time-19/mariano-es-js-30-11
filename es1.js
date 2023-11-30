@@ -2,7 +2,8 @@
 let timer = 5;
 
 function caricaImmagine() {
-    
+
+        document.getElementById("carica").onclick = "";
         document.getElementById("carica").innerHTML = `${timer}`;
     
         let timing = setInterval(function () {
@@ -20,6 +21,7 @@ function caricaImmagine() {
             setTimeout(function amazing() {
 
                 document.getElementById("image").style.opacity = "1";
+                
 
             },1000)
             
