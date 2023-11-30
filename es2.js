@@ -2,6 +2,8 @@
 
 function cambioImmagine() {
 
+    document.getElementById("p").remove();
+
     let timing = setInterval(function cambio(){
 
         let numeroRandom = Math.random() * 5;
