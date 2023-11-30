@@ -3,7 +3,7 @@ let timer = 5;
 
 function caricaImmagine() {
 
-        document.getElementById("carica").onclick = "";
+        
         document.getElementById("carica").innerHTML = `${timer}`;
     
         let timing = setInterval(function () {

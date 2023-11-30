@@ -2,7 +2,6 @@
 
 function cambioImmagine() {
 
-    document.getElementById("p").remove();
 
     let timing = setInterval(function cambio(){
 
