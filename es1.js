@@ -18,7 +18,7 @@ function caricaImmagine() {
             
             document.getElementById("carica").innerHTML = `<img style="transition: 1s; opacity: 0; width: 100%; height: 100vh"  src="./town.png" alt="" id="image">`;
             
-            setTimeout(function amazing() {
+            setTimeout(function delaying() {
 
                 document.getElementById("image").style.opacity = "1";
                 
