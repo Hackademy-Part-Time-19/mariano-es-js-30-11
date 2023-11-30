@@ -22,7 +22,7 @@ function cambioImmagine() {
             
         },1000)
 
-    },5000)
+    },2500)
 
 
     document.getElementById()
