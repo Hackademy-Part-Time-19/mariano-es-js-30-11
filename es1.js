@@ -23,9 +23,6 @@ function caricaImmagine() {
 
             },1000)
             
-            
-            
-            
         }
         
     },1000 )
